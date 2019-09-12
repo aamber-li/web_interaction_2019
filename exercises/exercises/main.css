@@ -1,0 +1,26 @@
+html{
+    background-color: #333333;
+    color: black;
+}
+body{
+    text-align: center;
+    font-family: "Apple SD Gothic Neo";
+}
+
+a:link, a:visited{
+    width:30px;
+    height:30px;
+    padding: 10px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+    padding: 10px;
+  background-color: black;
+}
+
+a{
+    margin:10px;
+}

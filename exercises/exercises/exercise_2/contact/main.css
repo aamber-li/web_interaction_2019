@@ -1,0 +1,71 @@
+html{
+    background-color: #333333;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-direction:row;
+}
+.flex-column-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.flex-column-2{
+   
+     display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex: 
+}
+#info{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#one{
+    background-color: #FF3366;
+}
+#two{
+     background-color: #33E1FF;
+}
+#three{
+    background-color: #2AC940;
+}
+#four{
+   background-color: #F3CA3E; 
+}
+.box{
+    margin:10px;
+
+}
+
+#title{
+    
+    display: flex;
+    justify-content: center;
+   margin:200px;
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+    width:200px;
+}
+.top{
+    margin-top: 200px;
+    font-family: "Didot";
+    text-transform: uppercase;
+}
+.sub{
+    margin: 0;
+    font-family: "Apple SD Gothic Neo";
+    font-weight: 100;
+}
+a:link, a:visited{
+
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+}
