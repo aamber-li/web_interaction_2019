@@ -1,0 +1,29 @@
+#container{
+    display: flex;
+    justify-content: center;
+}
+#box{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width:1500px;
+    height:1000px; 
+}
+.squares{
+    display: flex;
+    align-content: center;
+    margin: 50px;
+    width :400px;
+    height: 300px;
+}
+img{
+    width: 400px;
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Didot";
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}

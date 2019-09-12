@@ -36,16 +36,14 @@ html{
 }
 .box{
     margin:10px;
-    height: 440px;
-    width: 650px;
 
 }
+
 #title{
     
     display: flex;
     justify-content: center;
-    margin-left: 225px;
-    margin-top: 200px;
+   margin:200px;
     border-style: solid;
     border-color: white;
     border-width: thick;
@@ -60,4 +58,14 @@ html{
     margin: 0;
     font-family: "Apple SD Gothic Neo";
     font-weight: 100;
+}
+a:link, a:visited{
+
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
 }

@@ -1,0 +1,45 @@
+html{
+    background-color: white;
+    color: black;
+
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+#link{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: "Didot";
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    text-align: center;
+}
+#box{
+    display: inline-block;  
+    width:500px;
+    height:600px; 
+    
+}
+#circle{
+    margin: 10px;
+  display: inline-block;
+    background: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+}
+#article{
+  font-family:"Apple SD Gothic Neo";
+
+    display: flex;
+    justify-content: center;
+}
