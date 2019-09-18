@@ -1,0 +1,48 @@
+body,p,h1{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+#container{
+
+}
+.box{
+    display:flex;
+    width:30vh;
+    word-wrap: normal;
+    margin: 2vh;
+    font-family: "Courier New";
+        font-size: 20px;
+    
+    
+}
+.section{
+    display: flex;
+    justify-content: center;
+
+    padding:5vh;
+}
+.pic{
+    width:250px;
+    height:250px;
+    background:blue;
+}
+
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) 
+{
+ .pic{
+        width: 180px;
+        height: 180px;
+        background:yellow;
+    }
+    .box{
+        width:20vh;
+        font-size: 15px;
+    }
+    
+ }
+   

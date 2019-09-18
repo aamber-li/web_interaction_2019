@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "Assistant";
+    src:url("Assistant-ExtraLight.woff") format("woff");
+}
+body,p,h1{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: helvetica, sans-serif;
+    font-size: 18.1vw;
+    letter-spacing: -1vw;
+}
+
+.body-text{
+    
+}

@@ -4,7 +4,7 @@ html{
 
 }
 .title{
-    margin-top: 300px;
+    margin-top: 50px;
     margin-bottom: 10px;
     font-family: "Didot";
     font-size: 100px;
@@ -34,4 +34,14 @@ a:hover, a:active {
     padding:5px;
     color:white;
   background-color: black;
+}
+#pic{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    
+    width:500px;
+    border-radius: 50%;
 }
