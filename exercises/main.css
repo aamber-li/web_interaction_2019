@@ -1,26 +1,131 @@
 html{
-    background-color: #333333;
+    background-color: white;
     color: black;
 }
-body{
-    text-align: center;
-    font-family: "Apple SD Gothic Neo";
+      
+.clock{
+    position:absolute;
+    width: 300px;
+    height:300px;
+    background:black;
+    border-radius: 100%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
 }
-
-a:link, a:visited{
-    width:30px;
-    height:30px;
-    padding: 10px;
-  color: white;
-  text-decoration: none;
-  display: inline-block;
+.clock .quarter-marker:nth-child(1){
+    position: absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    left:0;
+    right:0;
+    margin: auto;
 }
-
-a:hover, a:active {
-    padding: 10px;
-  background-color: black;
+.clock .quarter-marker:nth-child(2){
+    position: absolute;
+    width:20px;
+    height:5px;
+    background:pink;
+    right:0;
+    bottom:0;
+    top:0;
+    margin: auto 0;
 }
-
-a{
-    margin:10px;
+.clock .quarter-marker:nth-child(3){
+    position: absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: 0 auto ; 
+}
+.clock .quarter-marker:nth-child(4){
+    position: absolute;
+    width:20px;
+    height:5px;
+    background:pink;
+    left:0;
+    bottom:0;
+    top:0;
+    margin:auto ; 
+}
+.clock .marker:nth-child(1){
+    position:absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    transform: rotate(30deg);
+    left:73%;
+    top:7%;
+}
+.clock .marker:nth-child(2){
+    position:absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    transform: rotate(60deg);
+    left:89%;
+    top:23%;
+}
+.clock .marker:nth-child(3){
+    position:absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    transform: rotate(120deg);
+    left:89%;
+    top:71%;
+}
+.clock .marker:nth-child(4){
+    position:absolute;
+    width:20px;
+    height:5px;
+    background:pink;
+    transform: rotate(60deg);
+    right:70%;
+    top:9%;
+}
+.clock .marker:nth-child(6){
+    position:absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    transform: rotate(150deg);
+    left:73%;
+    top:87%;
+}
+.clock .marker:nth-child(7){
+    position:absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    transform: rotate(30deg);
+    left:73%;
+    top:7%;
+}
+.clock .marker:nth-child(8){
+    position:absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    transform: rotate(60deg);
+    left:89%;
+    top:23%;
+}
+.clock .circle{
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background: white;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
 }
