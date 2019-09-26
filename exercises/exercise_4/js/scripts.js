@@ -1,4 +1,6 @@
-
+$(document).ready(function(){
+    
+setInterval(function(){
 var today = new Date();
 var hour = today.getHours()%12;
 var min = today.getMinutes();
@@ -8,7 +10,7 @@ let sec_position = (sec *6);
 let min_position = (min*6);
 let hour_position = (hour*30);
 
-setInterval(function(){
+
     
 
 $('.second-hand').css('transform','rotate('+ sec_position.toString()+'deg)');
@@ -18,22 +20,10 @@ $('.min-hand').css('transform','rotate('+ min_position.toString()+'deg)');
 $('.hour-hand').css('transform','rotate('+ hour_position.toString()+'deg)');
 
  },1000);
-let second = 0;
+    
+       });
 
-function moveHands(){
-    // currentSecondPosition += 6;
-    // console.log(currentSecondPosition);
-    // currentMinPosition += 0.1;
-    // currentHourPosition += 0.008;
-    // $('.second-hand').css('transform', 'rotate(' + currentSecondPosition.toString() + 'deg)');
-    // $('.min-hand').css('transform', 'rotate(' + currentMinPosition.toString() + 'deg)');
-    // $('.hour-hand').css('transform', 'rotate(' + currentHourPosition.toString() + 'deg)');
 
-    setInterval(moveHands, 1000);
-    //setTimeout(moveHands, 1000);
-}
-
-window.onload = moveHands;
 
 //setInterval(function(){
 //

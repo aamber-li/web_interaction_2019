@@ -156,9 +156,9 @@ html{
     left:0;
     right:0;
     margin:auto;
-    transition:1s linear;
+
     transform-origin: bottom;
- animation: rotate 60s infinite linear;
+/* animation: rotate 60s infinite linear;*/
 }
 .min-hand{
     position:absolute;
@@ -169,9 +169,9 @@ html{
     right:0;
     top:20%;
     margin:auto;
-    transition:1s linear;
+
     transform-origin: bottom;
-   animation: rotate 3600s infinite linear;
+/*   animation: rotate 3600s infinite linear;*/
 }
 .hour-hand{
     position:absolute;
@@ -182,9 +182,9 @@ html{
     right:0;
     top:30%;
     margin:auto;
-    transition:1s linear;
+
     transform-origin: bottom;
-    animation: rotate 43200s infinite linear;
+/*    animation: rotate 43200s infinite linear;*/
 }
 
 @keyframes rotate{
