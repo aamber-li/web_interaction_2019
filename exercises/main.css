@@ -90,7 +90,7 @@ html{
     right:70%;
     top:9%;
 }
-.clock .marker:nth-child(6){
+.clock .marker:nth-child(5){
     position:absolute;
     width:5px;
     height:20px;
@@ -99,14 +99,23 @@ html{
     left:73%;
     top:87%;
 }
+.clock .marker:nth-child(6){
+    position:absolute;
+    width:5px;
+    height:20px;
+    background:pink;
+    transform: rotate(120deg);
+    right:88%;
+    top:21%;
+}
 .clock .marker:nth-child(7){
     position:absolute;
     width:5px;
     height:20px;
     background:pink;
     transform: rotate(30deg);
-    left:73%;
-    top:7%;
+    left:26%;
+    bottom:6%;
 }
 .clock .marker:nth-child(8){
     position:absolute;
@@ -114,8 +123,8 @@ html{
     height:20px;
     background:pink;
     transform: rotate(60deg);
-    left:89%;
-    top:23%;
+    left:9%;
+    bottom:23%;
 }
 .clock .circle{
     position:absolute;
@@ -128,4 +137,36 @@ html{
     top:0;
     bottom:0;
     margin:auto;
+}
+.second-hand{
+    position: absolute;
+    width:3px;
+    height:40%;
+    background:blue;
+    top:10%;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.min-hand{
+    position:absolute;
+    width:6px;
+    height:30%;
+    background:red;
+    left:0;
+    right:0;
+    top:20%;
+    margin:auto;
+}
+.hour-hand{
+    position:absolute;
+    width:6px;
+    height:20%;
+    background:green;
+    left:0;
+    right:0;
+    top:30%;
+    margin:auto;
+    transform-origin: bottom;
+    transform: rotate(20deg)
 }
