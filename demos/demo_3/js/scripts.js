@@ -27,7 +27,7 @@ $('#diamond').click(function(){
 
 setInterval(function(){
             
-    console.log()
+  
     $('#square').css('margin-left',Math.random()*50+"px")
 },1000)
 
