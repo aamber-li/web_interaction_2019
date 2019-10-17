@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Web Interaction Website</title>
+        <!-- <meta name="description" content="An interactive getting started guide for Brackets."> -->
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <style>
+            #tool{
+                position:fixed;
+                bottom:0;
+                left:0;
+                background-color: #f1f1f1;
+                padding:20px;
+                margin:10px;
+                border-radius:10px;
+            }
+            #clock{
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+      <p id="clock">Amber</p>
+      <div id="tool">
+        <select id="myFonts" onchange="fontFunction()">
+          <option value = "DIN Condensed">DIN Condensed</option>
+          <option value = "Times New Roman">Times New Roman</option>
+          <option value = "courier, monospace">Courier</option>  
+          </select>
+          <br>
+          <br>
+          <input type="checkbox" id = "boldCheck" onclick ="boldFunction()">Bold<br>
+          <input type="checkbox" id = "italicCheck" onclick ="italicFunction()">Italic<br>
+          
+          <br>
+          <br>
+          <input id="size" type="range" data-default="0" value="16" min="12" max="150" step="1" oninput="sizeFunction()">
+        </div>
+    </body>
+    
+
+
+     <script src='js/scripts.js'></script>
+    
+</html>
+
