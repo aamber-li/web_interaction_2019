@@ -57,18 +57,12 @@ html{
     height: 30px;
     background-color: white;
     border-radius: 15px;
+    animation-name: text;
 }
-#text2{
-        margin-left: auto;
-    margin-right: auto;
-    left:0;
-    right:0;
-    margin-bottom: auto;
-    bottom:0;
-    width:370px;
-    height: 30px;
-    background-color: white;
-    border-radius: 15px;
 
+@keyframes text{
+    
 }
+
+
 
