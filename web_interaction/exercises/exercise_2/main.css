@@ -1,0 +1,47 @@
+html{
+    background-color: white;
+    color: black;
+
+}
+.title{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Didot";
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+#links{
+    display: flex;
+    justify-content: center
+}
+p{
+    font-size: 25px;
+    margin: 0;
+    font-family:"Apple SD Gothic Neo";
+    display: flex;
+    justify-content: center
+}
+a:link, a:visited{
+  padding:5px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+    
+}
+
+a:hover, a:active {
+    padding:5px;
+    color:white;
+  background-color: black;
+}
+#pic{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    
+    width:500px;
+    border-radius: 50%;
+}

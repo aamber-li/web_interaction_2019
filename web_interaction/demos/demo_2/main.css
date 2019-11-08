@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "Assistant";
+    src:url("Assistant-ExtraLight.woff") format("woff");
+}
+
+
+div {
+  font-family: "Assistant";
+}
+
+
+body, p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    text-align: center;
+}
+
+h1{
+    font-family: "helvetica", sans-serif;
+    font-size: 17.5vw;
+    letter-spacing: -0.7vw; 
+    text-align: left;
+}
+
+.body-text{
+    font-family: "Assistant";
+    font-size: 23px;
+    max-width: 450px;
+    display: inline-block; 
+    text-align: left;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    margin: 20px 3vh;
+ }
+
+@media only screen and (max-width: 600px) {
+    .body-text{
+    font-size: 18px; 
+    letter-spacing: 0.5px;
+     color: blueviolet;
+ }
+}
+
+img {
+    width: 80%;
+    margin: 20px;
+}
+
+
+
+
+
+
+

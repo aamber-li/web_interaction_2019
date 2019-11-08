@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin:0;
+    padding:0;
+    color:white;
+}
+#circle, .circle{
+    width:100px;
+    height:100px;
+    background: white;
+    border-radius: 100%;
+    transition: background .5s ease;
+}
+.two{
+    margin-top: -50px;
+    mix-blend-mode: exclusion;
+    background-color:burlywood;
+    animation-name: animation-one;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+#circle:hover{
+    background: blue;
+    border-radius: 0;
+}
+/* defines the animation */
+@keyframes animation-one{
+    0%{ background-color:burlywood;}
+    50% {background-color:aqua;}
+    100% {background-color: burlywood;}
+    
+}
+li{
+    margin:20px 20px 10px;
+}
+#square{
+    width:100px;
+    height:100px;
+    background-color:green;
+    transition:.5s ease;
+}
+#diamond{
+    width:100px;
+    height:100px;
+    margin:25px;
+    border-radius:10px;
+    background-color: magenta;
+    transform: rotate(45deg);
+    transition:.5s ease;
+}
+

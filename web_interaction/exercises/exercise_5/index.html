@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Web Interaction Website</title>
+        <!-- <meta name="description" content="An interactive getting started guide for Brackets."> -->
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <h1>What mood are you feeling?</h1>
+        <div id = "container">
+        <div id = "box">
+        <p id ="name">Amber</p>
+        </div>
+        </div>
+        <div id="tool">
+            
+            <br>
+        <div id="container2">
+            
+        <select id="myFonts" onchange="fontFunction()">
+          <option value = "DIN Condensed">DIN Condensed</option>
+          <option value = "Lobster">Lobster</option>
+          <option value = "courier, monospace">Courier</option>  
+          </select>
+         
+        
+            </div>
+              <br>
+             <div id="container2">
+        <select id="myBckgrd" onchange="bkgrdFunction()">
+          <option value = "black">Black</option>
+          <option value = "white">White</option>
+          <option value = "red">Red</option>  
+          </select>
+            <br>
+          <br>
+            </div>
+             <div id="container2">
+        <button type="button" id="myColor" onclick="colorFunction()">Color</button>
+        <br>
+          <br>
+          </div>
+             <br> 
+             <div id="container2">
+                 
+        <input type="checkbox" id = "boldCheck" onclick ="boldFunction()">Bold<br>
+        <input type="checkbox" id = "italicCheck" onclick ="italicFunction()">Italic<br>
+          </div>
+             <div id="container2">
+        <br>
+        <br>
+        <input id="size" type="range" data-default="0" value="16" min="12" max="150" step="1" oninput="sizeFunction()">
+        </div>
+        </div>
+  
+    
+    </body>
+    
+
+   <script src='js/scripts.js'></script>
+   <script src='js/jquery.js'></script>
+    
+</html>
+
