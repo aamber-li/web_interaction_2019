@@ -1,0 +1,187 @@
+/*sldfja;
+diff bacgkround diff text*/
+/*#222831*/
+/*
+$outline: rgba(#fff, .4);
+$shadow: rgba($yellow, .5);
+*/
+
+html,
+body {
+   
+    background:black;
+    width: 100%;
+    height: 100%;
+}
+#container{
+    font-family: 'CoreCircus', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    top: 40%;
+    left: 50%;
+/*    transform allows the text to be realigned to the center*/
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    color:black;
+}
+#container2{
+    font-family: 'CoreCircus', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    top: 110%;
+    left: 50%;
+/*    transform allows the text to be realigned to the center*/
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    color:black;
+}
+#start{
+    text-align: center;
+}
+
+#prev{
+    
+}
+
+#next{
+    
+}
+
+.button{
+    text-align: center;
+    padding:10px;
+/*    display: block;*/
+    height:10px;
+    width:20px;
+    border-radius: 50%;
+    color:white;
+}
+
+.light{
+    color:black;
+      /* animation: flicker1 1s linear infinite;  */
+      /* animation-play-state: paused; */
+  }
+
+@keyframes flicker1{
+     0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99;
+        text-shadow: -1px -1px 0 #ff7e00, 1px -1px 0 #ff7e00, -1px 1px 0 #ff7e00, 1px 1px 0 #ff7e00, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+    
+}
+
+.light2{
+    color:black;
+      /* animation: flicker3 1s linear infinite;  */
+      /* animation-play-state: paused; */
+  }
+
+@keyframes flicker2{
+     0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99;
+        text-shadow: -1px -1px 0 #ff004c, 1px -1px 0 #ff004c, -1px 1px 0 #ff004c, 1px 1px 0 #ff004c, 0 -2px 8px, 0 0 2px, 0 0 5px #ff004c, 0 0 15px #e00078, 0 0 2px #ff004c, 0 2px 3px #000;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+    
+}
+
+.light3{
+    color:black;
+      /* animation: flicker2 1s linear infinite;  */
+      /* animation-play-state: paused; */
+  }
+
+@keyframes flicker3{
+     0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99;
+        text-shadow: -1px -1px 0 #73ff00, 1px -1px 0 #73ff00, -1px 1px 0 #73ff00, 1px 1px 0 #73ff00, 0 -2px 8px, 0 0 2px, 0 0 5px #73ff00, 0 0 15px #0b4d00, 0 0 2px #73ff00, 0 2px 3px #000;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+    
+}
+
+.light4{
+    color:black;
+      /* animation: flicker4 1s linear infinite;  */
+      /* animation-play-state: paused; */
+  }
+
+@keyframes flicker4{
+     0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99;
+        text-shadow: -1px -1px 0 #00aeff, 1px -1px 0 #00aeff, -1px 1px 0 #00aeff, 1px 1px 0 #00aeff, 0 -2px 8px, 0 0 2px, 0 0 5px #00aeff, 0 0 15px #0004ff, 0 0 2px #00aeff, 0 2px 3px #000;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+    
+}
+
+@keyframes flicker5{
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+       opacity: .99;
+       text-shadow: -1px -1px 0 #e6e6e6, 1px -1px 0 #e6e6e6, -1px 1px 0 #e6e6e6, 1px 1px 0 #e6e6e6, 0 -2px 8px, 0 0 2px, 0 0 5px #e6e6e6, 0 0 15px #666666, 0 0 2px #e6e6e6, 0 2px 3px #000;
+   }
+   20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+       opacity: 0.4;
+       text-shadow: none;
+   }
+   
+}
+/*
+#container {
+    font-family: 'CoreCircus', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color:#393e46;
+
+    
+    &:before {
+        content: attr(data-heading);
+        position: absolute;
+        overflow: hidden;
+        color: $yellow;
+        width: 100%;
+        z-index: 5;
+        text-shadow: none;
+        left: 27%;
+        text-align: left;
+        animation: flicker 3s linear infinite;
+    }
+}
+
+#light{
+    color:yellow;
+}
+@keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: .99;
+        text-shadow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0 $outline, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.4;
+        text-shadow: none;
+    }
+}*/
